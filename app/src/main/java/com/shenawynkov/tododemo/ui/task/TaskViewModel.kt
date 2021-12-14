@@ -85,10 +85,11 @@ class TaskViewModel @Inject constructor(val repo: TodoRepo) : ViewModel() {
                 repo.addTask(
                     todo
                 )
-                actionDone.value = true
+
 
 
             }
+            actionDone.value = true
         }
 
     }
@@ -101,9 +102,9 @@ class TaskViewModel @Inject constructor(val repo: TodoRepo) : ViewModel() {
                 )
 
 
-                actionDone.value = true
 
             }
+            actionDone.value = true
 
         }
 
